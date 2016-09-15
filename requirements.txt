@@ -1,2 +1,6 @@
 github.com/gorilla/mux
 github.com/gorilla/handlers
+
+github.com/labstack/echo
+# it appears that if you need to use Echo middleware you need to install JWT middleware explicitly
+github.com/dgrijalva/jwt-go
